@@ -1,0 +1,16 @@
+@layer tailwind-base, antd;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
+
+.demo-logo {
+  width: 120px !important;
+  min-width: 120px !important;
+  height: 32px !important;
+  background: rgba(255, 255, 255, .2) !important;
+  border-radius: 6px !important;
+  margin-inline-end: 24px !important;
+}
